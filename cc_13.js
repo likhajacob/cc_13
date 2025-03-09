@@ -40,7 +40,7 @@ function highlightEmployeeCards(){
     const cardArray = Array.from(employeeCards);
     // adding background color and borders
     cardArray.forEach(card => {
-        card.style.backgroundColor = "blue";
+        card.style.backgroundColor = "green";
         card.style.border = "2px solid black"
     });
 
