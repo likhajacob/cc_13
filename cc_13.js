@@ -33,4 +33,18 @@ function addEmployee(name, position) {
 addEmployee('Krupa Jacob', 'Business Analyst at Sephora'); 
 addEmployee('Likha Jacob', 'Advisor at HCC');
 addEmployee('Betty Figi', 'Nurse at TGH');
+// Task 3 - converting nodelists to arrays for bulk updates
+function highlightEmployeeCards(){
+    const employeeCards = document.querySelectorAll(".employeeCard");
+    // employee card selection 
+    const cardArray = Array.from(employeeCards);
+    // adding background color and borders
+    cardArray.forEach(card => {
+        card.style.backgroundColor = "blue";
+        card.style.border = "2px solid black"
+    });
+
+}
+
+highlightEmployeeCards();
 
