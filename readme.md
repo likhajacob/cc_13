@@ -1,0 +1,2 @@
+Challenge Overview
+In this challenge, I will create an interactive dashboard for managing employees in a company. I will leverage skills in DOM manipulation to dynamically add, update, and remove employee cards. This challenge will reinforce my understanding of selecting nodes, using methods like createElement, appendChild, removeChild, and handling event propagation (with stopPropagation()). The business case simulates real-world scenarios where a company manages employee data interactively.
