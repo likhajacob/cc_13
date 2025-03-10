@@ -33,7 +33,9 @@ function addEmployee(name, position) {
 addEmployee('Krupa Jacob', 'Business Analyst at Sephora'); 
 addEmployee('Likha Jacob', 'Advisor at HCC');
 addEmployee('Betty Figi', 'Nurse at TGH');
+
 //Task 3: Converting NodeLists to Arrays for Bulk Updates
+
 // Select all employee cards and convert NodeList to an array
 const employeeCards = Array.from(document.querySelectorAll('.employee-card'));
 
@@ -42,6 +44,10 @@ employeeCards.forEach(card => {
     card.style.border = '2px solid #FFD700'; // Adding a gold border
     card.style.backgroundColor = '#FFFACD'; // Light yellow background
 });
-
+// Task 4 - implementing removal of employee cards with event bubbling
+resolveBtn.addEventListener('click', (event) => {
+    ticketCard.remove();
+    event.stopPropagation();
+});
 
 
